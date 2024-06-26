@@ -1,2 +1,5 @@
-#Alternate default index pages 
-DirectoryIndex first.html index.htm index.html index.php 
+<Directory /var/www/html>
+    Options Indexes FollowSymLinks
+    AllowOverride All
+    Require all granted
+</Directory>
